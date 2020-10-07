@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: particule/demo-concourse-flux:1.0.7
+        image: particule/simplecolorapi:3.0
         imagePullPolicy: Always
         ports:
         - name: web
